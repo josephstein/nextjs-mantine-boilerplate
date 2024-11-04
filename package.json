@@ -1,0 +1,53 @@
+{
+  "name": "titanium",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "analyze": "ANALYZE=true next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "lint": "next lint",
+    "lint:stylelint": "stylelint '**/*.css' --cache",
+    "prettier:check": "prettier --check \"**/*.{ts,tsx}\"",
+    "prettier:write": "prettier --write \"**/*.{ts,tsx}\""
+  },
+  "dependencies": {
+    "@mantine/core": "7.13.4",
+    "@mantine/dates": "^7.13.4",
+    "@mantine/hooks": "7.13.4",
+    "@mantine/notifications": "^7.13.4",
+    "@tabler/icons-react": "^3.21.0",
+    "clsx": "^2.1.1",
+    "next": "15.0.1",
+    "posthog-js": "^1.180.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.8",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "@typescript-eslint/eslint-plugin": "^8.12.2",
+    "@typescript-eslint/parser": "^8.12.2",
+    "eslint": "8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^18.0.0",
+    "eslint-config-mantine": "^4.0.3",
+    "eslint-config-next": "14.2.4",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jest": "^28.8.3",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "postcss": "^8.4.38",
+    "postcss-preset-mantine": "1.17.0",
+    "postcss-simple-vars": "^7.0.1",
+    "prettier": "^3.3.3",
+    "stylelint": "^16.10.0",
+    "stylelint-config-standard-scss": "^13.1.0",
+    "typescript": "5.5.2"
+  },
+  "packageManager": "pnpm@9.5.0"
+}
